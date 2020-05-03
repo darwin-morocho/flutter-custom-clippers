@@ -76,7 +76,7 @@ class ArcToPointClipper extends CustomClipper<Path> {
       radius: Radius.circular(80),
       clockwise: false,
     );
-
+    
     path.arcToPoint(
       Offset(size.width * 0.5 - 70 + 140 + 40, 120),
       radius: Radius.circular(60),
